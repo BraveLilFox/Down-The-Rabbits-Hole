@@ -307,14 +307,14 @@ body.light-theme{
   position: relative;
   overflow: hidden;
 }
-
+/*
 .fancy-border::before{
   content:'';
   position: absolute;
   top: 0;
   left: 0;
   width: 200%;
-  height: 150%;
+  height: 100%;
   background: var(--gradient-color);
   background-size: 50% 100%;
   z-index: 5;
@@ -327,7 +327,7 @@ body.light-theme{
   padding: .6rem 1.5rem;
   background-color: var(--secondary-background-color);
 }
-
+*/
 .article{
   position: relative;
   min-height: var(--item-min-height-md);
