@@ -306,11 +306,8 @@ body.light-theme{
 .fancy-border{
   position: relative;
   overflow: hidden;
-  h3{
-    text-align: center;
-  }
 }
-/*
+
 .fancy-border::before{
   content:'';
   position: absolute;
@@ -327,10 +324,11 @@ body.light-theme{
   position: relative;
   z-index: 10;
   display: inline-flex;
+  text-align: center;
   padding: .6rem 1.5rem;
   background-color: var(--secondary-background-color);
 }
-*/
+
 .article{
   position: relative;
   min-height: var(--item-min-height-md);
