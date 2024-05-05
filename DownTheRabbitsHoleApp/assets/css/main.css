@@ -306,6 +306,9 @@ body.light-theme{
 .fancy-border{
   position: relative;
   overflow: hidden;
+  h3{
+    text-align: center;
+  }
 }
 /*
 .fancy-border::before{
