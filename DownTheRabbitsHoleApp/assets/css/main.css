@@ -12,6 +12,7 @@
   --transparent-light-color: rgba(255,255,255,.05);
   --transparent-dark-color: rgba(0,0,0,.75);
   --font-family: 'sans-serif';
+  --font-size-xxsm: 1rem;
   --font-size-xsm: 1.2rem;
   --font-size-sm: 1.6rem;
   --font-size-md: 2.4rem;
@@ -281,6 +282,43 @@ body.light-theme{
   gap: var(--gap);
 }
 
+.headline-banner{
+  background-color: var(--secondary-background-color);
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+  font-size: var(--font-size-xsm);
+}
+
+.headline{
+  color: var(--light-color);
+  font-size: var(--font-size-xxsm);
+  text-transformation: uppercase;
+  text-align: center;
+  padding: .5rem;
+  height: 100%;
+}
+
+.headline span{
+  height: inherit;
+}
+
+.fancy-border{
+  position: relative;
+  overflow: hidden;
+}
+
+.fancy-border::before{
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background: var(--gradient-color);
+  background-size: 50% 100%;
+  z-index: 5;
+}
 
 /* Featured Articles - Sidebar */
 
