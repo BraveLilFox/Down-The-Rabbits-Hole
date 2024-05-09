@@ -309,7 +309,7 @@ body.light-theme{
 .fancy-border{
   position: relative;
   overflow: hidden;
-  margin-right: .5rem;
+  margin: .5rem;
 }
 
 .fancy-border::before{
