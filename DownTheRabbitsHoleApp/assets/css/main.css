@@ -295,7 +295,7 @@ body.light-theme{
   font-size: var(--font-size-xxsm);
   text-transform: uppercase;
   text-align: center;
-  padding: .4rem;
+  margin: .4rem;
   height: 100%;
 }
 
