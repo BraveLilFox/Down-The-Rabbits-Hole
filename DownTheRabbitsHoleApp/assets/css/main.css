@@ -288,6 +288,7 @@ body.light-theme{
   align-items: center;
   gap: var(--gap);
   font-size: var(--font-size-xsm);
+  height: 100px;
 }
 
 .headline{
@@ -295,7 +296,7 @@ body.light-theme{
   font-size: var(--font-size-xxsm);
   text-transform: uppercase;
   text-align: center;
-  padding: 1rem;
+  padding: .4rem;
   height: 100%;
 }
 
