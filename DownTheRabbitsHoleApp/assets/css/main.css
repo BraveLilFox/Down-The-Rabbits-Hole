@@ -299,6 +299,10 @@ body.light-theme{
   height: 125%;
 }
 
+.headline span{
+  height: inherit;
+}
+
 .fancy-border{
   position: relative;
   overflow: hidden;
@@ -309,15 +313,12 @@ body.light-theme{
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 200%;
   height: 100%;
   background: var(--gradient-color);
-  background-size: 50% 75%;
+  background-size: 50% 100%;
 }
 
-.headline span{
-  height: inherit;
-}
 
 /* Featured Articles - Sidebar */
 
