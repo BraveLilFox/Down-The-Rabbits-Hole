@@ -302,7 +302,7 @@ body.light-theme{
 .headline span{
   height: inherit;
 }
-/*
+
 .fancy-border{
   position: relative;
   overflow: hidden;
@@ -318,7 +318,7 @@ body.light-theme{
   background: var(--gradient-color);
   background-size: 25% 100%;
 }
-*/
+
 /* Featured Articles - Sidebar */
 
 /* Quick Read */
