@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&family=Sedgwick+Ave+Display&display=swap');
+
 
 :root {
   --light-color: #fff;
@@ -11,7 +13,7 @@
     #dcf2b0, #c2eabd, #c0babc, #c7ac92, #cd533b);
   --transparent-light-color: rgba(255,255,255,.05);
   --transparent-dark-color: rgba(0,0,0,.75);
-  --font-family: 'sans-serif';
+  --font-family: 'Reddit Sans Condensed', 'sans-serif';
   --font-size-xxsm: 1rem;
   --font-size-xsm: 1.2rem;
   --font-size-sm: 1.6rem;
