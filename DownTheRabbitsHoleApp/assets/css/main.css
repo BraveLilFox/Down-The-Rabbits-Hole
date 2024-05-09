@@ -270,7 +270,7 @@ body.light-theme{
 
 /* Featured Articles */
 .featured-articles{
-  padding-block: 2rem;
+  padding: 2rem 0;
 }
 
 .section-header-offset{
