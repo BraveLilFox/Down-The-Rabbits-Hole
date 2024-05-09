@@ -293,9 +293,9 @@ body.light-theme{
 .headline{
   color: var(--light-color);
   font-size: var(--font-size-xxsm);
-  text-tranform: uppercase;
+  text-transform: uppercase;
   text-align: center;
-  padding: .5rem;
+  padding: .4rem;
   height: 100%;
 }
 
