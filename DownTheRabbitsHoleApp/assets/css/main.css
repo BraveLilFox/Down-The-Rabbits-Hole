@@ -107,6 +107,12 @@ body.light-theme{
   padding-block: 5rem;
 }
 
+.place-items-center{
+  display: inline;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Header */
 .header{
   background-color: var(--secondary-background-color);
