@@ -290,6 +290,7 @@ body.light-theme{
   align-items: center;
   gap: var(--gap);
   font-size: var(--font-size-xsm);
+  z-index: 1;
 }
 
 .headline{
@@ -298,7 +299,7 @@ body.light-theme{
   text-transform: uppercase;
   text-align: center;
   padding: .4rem;
-  height: 60%;
+  height: 50%;
 }
 
 .headline span{
