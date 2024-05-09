@@ -303,6 +303,22 @@ section-header-offset{
   height: inherit;
 }
 
+.fancy-border{
+  position: relative;
+  overflow: hidden;
+}
+
+.fancy-border::before{
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background: var(--gradient-color);
+  background-size: 50% 100%;
+}
+
 /* Featured Articles - Sidebar */
 
 /* Quick Read */
