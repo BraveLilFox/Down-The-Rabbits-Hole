@@ -345,6 +345,29 @@ body.light-theme{
   transition: transform .25s;
 }
 
+.article-category{
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 1rem;
+  font-size: var(--font-size-xxsm);
+  background-color: var(--primary-background-color);
+  color: var(--light-color);
+  text-transform: uppercase;
+  z-index: 10;
+}
+
+.article-data-container{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 2rem 1.5rem;
+  background-color: var(--transparent-dark-color);
+  z-index: 10;
+  width: 100%;
+  transition: background-color .5s;
+}
+
 /* Featured Articles - Sidebar */
 
 /* Quick Read */
