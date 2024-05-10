@@ -392,6 +392,14 @@ body.light-theme{
   transform: rotate(45deg);
 }
 
+.title{
+  color: var(--light-color);
+}
+
+.article-title{
+  font-size: var(--font-size-md);
+}
+
 /* Featured Articles - Sidebar */
 
 /* Quick Read */
