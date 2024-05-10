@@ -372,11 +372,11 @@ body.light-theme{
   background-color: var(--hover-dark-color);
   color: var(--hover-light-color);
 }
-
+/*
 .article::hover .article-data-spacer{
   background-color: var(--hover-light-color);
 }
-
+*/
 .article-data{
   display: flex;
   align-items: center;
