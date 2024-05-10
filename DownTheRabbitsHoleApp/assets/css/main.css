@@ -342,7 +342,7 @@ body.light-theme{
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: 
+  transition: transform .25s;
 }
 
 /* Featured Articles - Sidebar */
