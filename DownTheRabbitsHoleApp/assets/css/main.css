@@ -372,7 +372,7 @@ body.light-theme{
   background-color: var(--hover-dark-color);
   color: var(--hover-light-color);
 }
-
+/*
 .article:hover .article-data-spacer{
   background-color: var(--hover-light-color);
 }
@@ -391,7 +391,7 @@ body.light-theme{
   color: var(--light-color-alt);
   transform: rotate(45deg);
 }
-
+*/
 /* Featured Articles - Sidebar */
 
 /* Quick Read */
