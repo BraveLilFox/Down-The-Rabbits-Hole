@@ -373,6 +373,10 @@ body.light-theme{
   color: var(--hover-light-color);
 }
 
+.article::hover .article-data-spacer{
+  background-color: var(--hover-light-color);
+}
+
 .article-data{
   display: flex;
   align-items: center;
