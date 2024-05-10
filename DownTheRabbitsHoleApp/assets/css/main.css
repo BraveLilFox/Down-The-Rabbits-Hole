@@ -376,7 +376,7 @@ body.light-theme{
 .article::hover .article-data-spacer{
   background-color: var(--hover-light-color);
 }
-*/
+
 .article-data{
   display: flex;
   align-items: center;
@@ -391,7 +391,7 @@ body.light-theme{
   color: var(--light-color-alt);
   transform: rotate(45deg);
 }
-
+*/
 /* Featured Articles - Sidebar */
 
 /* Quick Read */
