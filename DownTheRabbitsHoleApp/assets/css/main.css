@@ -368,6 +368,19 @@ body.light-theme{
   transition: background-color .5s;
 }
 
+.article::hover .article-data-container{
+  background-color: var(--hover-dark-color);
+  color: var(--hover-light-color);
+}
+
+.article-data{
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+  font-size: var(--font-size-xsm);
+  margin-bottom: 1rem;
+}
+
 /* Featured Articles - Sidebar */
 
 /* Quick Read */
