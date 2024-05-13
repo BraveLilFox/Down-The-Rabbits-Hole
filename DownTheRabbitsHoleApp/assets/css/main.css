@@ -10,7 +10,7 @@
   --hover-light-color: var(--light-color);
   --hover-dark-color: var(--primary-background-color);
   --gradient-color: linear-gradient(45deg,
-    #dcf2b0, #c2eabd, #c0babc, #c7ac92, #cd533b);
+    #e4e6c3, #899878, #222725, #121113, #f7f7f2);
   --transparent-light-color: rgba(255,255,255,.05);
   --transparent-dark-color: rgba(0,0,0,.75);
   --font-family: 'Reddit Sans Condensed', 'sans-serif';
