@@ -382,7 +382,7 @@ body.light-theme{
   align-items: center;
   gap: var(--gap);
   font-size: var(--font-size-xsm);
-  margin-bottom: 1rem;
+  margin: 1rem;
 }
 
 .article-spacer{
