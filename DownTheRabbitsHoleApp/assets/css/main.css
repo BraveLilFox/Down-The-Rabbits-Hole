@@ -398,6 +398,7 @@ body.light-theme{
 
 .article-title{
   font-size: var(--font-size-md);
+  margin: 1rem;
 }
 
 /* Featured Articles - Sidebar */
