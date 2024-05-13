@@ -406,7 +406,7 @@ body.light-theme{
   padding: 2.5rem;
 }
 
-.trending-news-box{
+.trending-news-article{
   display: flex;
   flex-direction: column;
   gap: var(--gap);
@@ -414,7 +414,7 @@ body.light-theme{
   border: 1px solid --transparent-light-color;
 }
 
-.trending-news-box:last-of-type{
+.trending-news-article:last-of-type{
   border-bottom: none;
 }
 
