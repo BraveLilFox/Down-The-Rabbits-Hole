@@ -436,7 +436,7 @@ body.light-theme{
   left: -1rem;
   z-index: 15;
   width: 3rem;
-  htight: 3rem;
+  height: 3rem;
   background-color: var(--secondary-background-color);
   color: var(--light-color);
   border-radius: 50%;
