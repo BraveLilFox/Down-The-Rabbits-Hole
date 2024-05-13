@@ -364,7 +364,7 @@ body.light-theme{
   padding: 2rem 1.5rem;
   background-color: var(--transparent-dark-color);
   z-index: 10;
-  width: 99%;
+  width: 90%;
   transition: background-color .5s;
 }
 
