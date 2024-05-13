@@ -438,6 +438,7 @@ body.light-theme{
   z-index: 15;
   width: 3rem;
   height: 3rem;
+  padding: 1rem;
   background-color: var(--secondary-background-color);
   color: var(--light-color);
   border-radius: 50%;
