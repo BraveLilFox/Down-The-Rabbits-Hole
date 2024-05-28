@@ -474,6 +474,19 @@ body.light-theme{
 }
 
 /* Quick Read - Swiper */
+.swiper-wrapper{
+  height: auto;
+}
+
+.swiper-control{
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: var(--secondary-background-color);
+}
+
+swiper-controls::after{
+  font-size: var(--font-size-sm);
+}
 
 /* Older Posts */
 
