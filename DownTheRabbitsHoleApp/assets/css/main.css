@@ -453,6 +453,25 @@ body.light-theme{
 }
 
 /* Quick Read */
+.section-title{
+  position: relative;
+  font-size: var(--font-size-md);
+  margin-bottom: 6rem;
+}
+
+.section-title::before{
+  content: attr(data-name);
+  font-size: var(--font-size-lg);
+  text-transform: uppercase;
+  opacity: .1;
+  postion: absolute;
+  top: 1.5rem;
+  left: 2rem;
+}
+
+.article.swiper-slide{
+  height: 40rem;
+}
 
 /* Quick Read - Swiper */
 
