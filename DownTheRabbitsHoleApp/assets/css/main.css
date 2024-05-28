@@ -486,6 +486,7 @@ body.light-theme{
 
 swiper-controls::after{
   font-size: var(--font-size-sm);
+  color: var(--light-color);
 }
 
 /* Older Posts */
