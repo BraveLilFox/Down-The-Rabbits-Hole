@@ -62,15 +62,22 @@ toggleThemeBtn.addEventListener('click', () =>{
 });
 
 // Swiper
-const swiper = new Swiper('.swiper',{
+const swiper = new Swiper('swiper',{
   slidesPerView: 1,
   spaceBetween: 20,
-  navgation: {
+  navigation: {
     nextEl: '.swiper-btn-next',
     prevEl: '.swiper-btn-prev'
   },
   pagination: {
-    el: '.swiper-pagination'
+    el: ',swiper-pagination'
   },
-  
+  breakpoints: {
+    700: {
+      slidesPerView: 2
+    },
+    1200: {
+      slidesPerView: 3
+    }
+  }
 });
