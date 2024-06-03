@@ -484,7 +484,7 @@ body.light-theme{
   background-color: var(--secondary-background-color);
 }
 
-swiper-controls::after{
+.swiper-controls::after{
   font-size: var(--font-size-sm);
   color: var(--light-color);
 }
