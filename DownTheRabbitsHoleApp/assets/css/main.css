@@ -454,7 +454,7 @@ body.light-theme{
 
 /* Quick Read */
 .section-title{
-  position: absolute;
+  position: relative;
   font-size: var(--font-size-md);
   margin-bottom: 6rem;
 }
@@ -464,9 +464,8 @@ body.light-theme{
   font-size: var(--font-size-lg);
   text-transform: uppercase;
   opacity: .1;
-  postion: relative;
-  /*CHECK*/
-  top: 1.5rem;
+  postion: absolute;
+  top: 1.5rem !important;
   left: 2rem;
 }
 
