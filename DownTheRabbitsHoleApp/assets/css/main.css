@@ -482,7 +482,7 @@ body.light-theme{
   width: 3.5rem;
   height: 3.5rem;
   background-color: var(--secondary-background-color);
-  opacity: .25%;
+  background-opacity: .25%;
 }
 
 .swiper-controls::after{
