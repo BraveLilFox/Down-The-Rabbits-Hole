@@ -465,7 +465,7 @@ body.light-theme{
   text-transform: uppercase;
   opacity: .1;
   postion: absolute;
-  top: 1.5rem !important;
+  margin-top: 1.5rem;
   left: 2rem;
 }
 
