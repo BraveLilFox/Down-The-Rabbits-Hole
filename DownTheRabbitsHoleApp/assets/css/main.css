@@ -462,12 +462,12 @@ body.light-theme{
 
 .section-title::before{
   content: attr(data-name);
-  font-size: var(--font-size-xlg);
+  font-size: var(--font-size-lg);
   text-transform: uppercase;
   opacity: .1;
   position: absolute;
-  top: 1.5rem;
-  left: 2rem;
+  top: 1rem;
+  left: 1.5rem;
 }
 
 .article.swiper-slide{
