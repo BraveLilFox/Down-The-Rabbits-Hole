@@ -479,12 +479,14 @@ body.light-theme{
 }
 
 .swiper-controls{
-
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: var(--secondary-background-color);
 }
 
 .swiper-controls::after{
   font-size: 1.6rem !important;
-  color: var(--primary-background-color);
+  color: var(--light-color);
 }
 
 /* Older Posts */
