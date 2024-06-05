@@ -490,6 +490,10 @@ body.light-theme{
   color: var(--light-color);
 }
 
+.swiper-controls:hover{
+  background-color: var(--secondary-background-color);
+}
+
 /* Older Posts */
 
 /* Popular Tags */
