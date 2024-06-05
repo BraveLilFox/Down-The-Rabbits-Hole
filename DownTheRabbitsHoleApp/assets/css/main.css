@@ -453,14 +453,13 @@ body.light-theme{
 }
 
 /* Quick Read */
-
-/*
 .section-title{
   position: relative;
   font-size: var(--font-size-md);
   margin-bottom: 6rem;
 }
 
+/*
 .section-title::before{
   content: attr(data-name);
   font-size: var(--font-size-lg);
