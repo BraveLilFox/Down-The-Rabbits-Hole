@@ -463,10 +463,6 @@ body.light-theme{
   content: attr(data-name);
   font-size: var(--font-size-lg);
   text-transform: uppercase;
-  opacity: .1;
-  postion: absolute !important;
-  margin-top: 1.5rem !important;
-  maring-left: 2rem !important;
 }
 
 .article.swiper-slide{
