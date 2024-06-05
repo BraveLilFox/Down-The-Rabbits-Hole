@@ -464,7 +464,7 @@ body.light-theme{
   font-size: var(--font-size-lg);
   text-transform: uppercase;
   opacity: .1;
-  postion: absolute !important;
+  postion: absolute;
   top: 1.5rem;
   left: 2rem;
 }
