@@ -459,17 +459,16 @@ body.light-theme{
   margin-bottom: 6rem;
 }
 
-/*
 .section-title::before{
   content: attr(data-name);
   font-size: var(--font-size-lg);
   text-transform: uppercase;
   opacity: .1;
-  postion: absolute;
+  postion: relative;
+  /*CHECK*/
   top: 1.5rem;
   left: 2rem;
 }
-*/
 
 .article.swiper-slide{
   height: 40rem;
