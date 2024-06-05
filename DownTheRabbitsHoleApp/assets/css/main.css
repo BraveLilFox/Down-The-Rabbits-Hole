@@ -456,7 +456,7 @@ body.light-theme{
 .section-title{
   position: relative;
   font-size: var(--font-size-md);
-  letter-spacing: length;
+  letter-spacing: 3px;
   margin-bottom: 6rem;
 }
 
