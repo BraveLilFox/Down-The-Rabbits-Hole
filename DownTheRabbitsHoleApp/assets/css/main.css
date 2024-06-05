@@ -462,7 +462,7 @@ body.light-theme{
 
 .section-title::before{
   content: attr(data-name);
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-xlg);
   text-transform: uppercase;
   opacity: .1;
   position: absolute;
