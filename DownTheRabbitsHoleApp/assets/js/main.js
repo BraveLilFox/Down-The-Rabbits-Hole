@@ -49,7 +49,7 @@ const currentTheme = localStorage.getItem('currentTheme');
 
 if(currentTheme){
   bodyElement.classList.add('light-theme');
-}
+},
 
 toggleThemeBtn.addEventListener('click', () =>{
   bodyElement.classList.toggle('light-theme');
@@ -58,18 +58,18 @@ toggleThemeBtn.addEventListener('click', () =>{
     localStorage.setItem('currentTheme', 'themeActive');
   }else{
     localStorage.removeItem('currentTheme');
-  }
+  },
 });
 
 // Swiper
-const swiper = new Swiper('.swiper-wrapper',{
+const swiper = new Swiper('.swiper-wrapper', {
   slidesPerView: 1,
   spaceBetween: 20,
   navigation: {
     nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev'
+    prevEl: '.swiper-button-prev',
   },
   pagination: {
-    el: '.swiper-pagination'
+    el: '.swiper-pagination',
   },
 });
