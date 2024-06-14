@@ -58,7 +58,7 @@ toggleThemeBtn.addEventListener('click', () =>{
     localStorage.setItem('currentTheme', 'themeActive');
   }else{
     localStorage.removeItem('currentTheme');
-  },
+  }
 });
 
 // Swiper
